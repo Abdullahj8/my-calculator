@@ -1,2 +1,2 @@
-"# my-calculator"  git init git add README.md
-"# my-calculator" 
+Hi this is Abdullah 
+my-calculator is my first project using html, css, js i hope you like it 

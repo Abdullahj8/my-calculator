@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: grey;
+  margin: auto;
+  border-radius: 21px;
+  padding: 20px;
+}
+.screen {
+  width: 100%;
+  background-color: #A1D676;
+  border-radius: inherit;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  height: 120px;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.numbersbox {
+  width: 100%;
+  margin-top: 30px;
+  height: 380px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 10px;
+}
+.numbersbox div {
+  background-color: rgb(222, 222, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px;
+  color : #444;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  cursor: pointer;
+}
+.numbersbox div:first-child {
+  grid-column: span 2;
+}
+.numbersbox div:last-child {
+  grid-column: span 2;
+}
+.numbersbox div:hover {
+  background-color: rgb(230, 230, 230);
+}
